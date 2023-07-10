@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+h4,h5, h6, p, a{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*.w-display-laptop{
+    width: 1440px;
+}
+
+*/
+.succes{
+    color: green;
+}
+
+.errors{
+    color: red;
+}
+
+
+.tombol{
+    background-color: #4A55A2;
+    color: white;
+    padding:6px 12px;
+    border: 0;
+    border-style: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tombol:hover{
+    background-color: #7895CB;
+    color: white;
+}

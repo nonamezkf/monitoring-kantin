@@ -1,0 +1,147 @@
+.navbar{
+  background-color: #4A55A2;
+}
+
+h5, h4{
+  color: #164B60;
+  font-weight: 500;
+}
+
+
+.grup-profile{
+/*  display: flex;*/
+}
+
+.navbar-profile{
+/*  width: 15%;*/
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.navbar-profile span{
+  box-sizing: border-box;
+  width: 200px;
+  background-color: #4A55A2;
+  border: none;
+  text-align: center;
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 4px;
+  padding: 6px 10px;
+/*  display: flex;*/
+/*  justify-content: center;*/
+}
+
+.navbar-profile span:hover{
+  background-color: #7895CB;
+}
+
+.navbar-profile span a{
+/*  align-items: center;*/
+  font-weight: 500;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.profil-anak-area{
+  width: 100%;
+}
+
+
+
+
+
+.form-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.area-form-section {
+  /*    margin-top: 20px;*/
+  margin-bottom: 20px;
+}
+
+
+
+
+.card{
+  border:none;
+  background-color: #4A55A2;
+}
+
+
+.card-area {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card-info {
+  /* flex: 1 0 70px; */
+  width: 30%;
+  /* margin-left:50px; */
+  /* align-items: center; */
+  text-align: center;
+}
+
+
+
+
+
+
+.table-section {
+  margin-top: 20px;
+}
+
+.info-page {
+  justify-content: center;
+  text-align: center;
+}
+
+table{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.info-area-data-anak{
+  margin: 10px 0px;
+}
+
+tr .a{
+  width: 130px;
+  color: white;
+  font-weight: 500;
+}
+
+tr .b{
+  width: 15px;
+  color: white;
+  font-weight: 500;
+}
+
+tr .c{
+  color: white;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  .navbar-profile span a{
+    width: 150px;
+  }
+  
+}
+
+@media screen and (min-width: 577px) {
+
+  .nav{
+    justify-content: end;
+  }
+
+}

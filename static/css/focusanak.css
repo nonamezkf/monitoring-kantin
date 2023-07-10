@@ -1,0 +1,70 @@
+.form-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.area-form-section {
+  /*    margin-top: 20px;*/
+  margin-bottom: 20px;
+}
+
+.card{
+  background-color: #4A55A2
+}
+
+.card-area {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card-info {
+  /* flex: 1 0 70px; */
+  width: 30%;
+  /* margin-left:50px; */
+  /* align-items: center; */
+  text-align: center;
+}
+
+.table-section {
+  margin-top: 20px;
+}
+
+.info-page {
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar{
+  background-color: #4A55A2;
+}
+
+
+h5, p {
+  color: #4A55A2;
+}
+
+@media screen and (max-width: 576px) {
+  .bagian-select {
+    width: 200px;
+    margin-right: 20px;
+  }
+  .card-info {
+    width: 45%;   
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .card-info{
+    margin-left:50px;
+  }
+
+  .bagian-select {
+    width: 400px;
+    margin-right: 20px;
+  }
+
+  .nav{
+    justify-content: end;
+  }
+
+}
